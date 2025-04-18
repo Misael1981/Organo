@@ -1,0 +1,15 @@
+.titulo_containerTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+
+  h2 {
+    color: #6278f7;
+    font-size: 2rem;
+  }
+  img {
+    margin-left: 5rem;
+  }
+}

@@ -2,6 +2,8 @@ import { useState } from "react";
 import Banner from "./components/Banner/Banner";
 import Formulario from "./components/Formulario";
 import Time from "./components/Time";
+import Footer from "./components/Footer";
+import Titulo from "./components/Titulo";
 
 function App() {
   const [colaboradores, setColaboradores] = useState([]);
@@ -57,6 +59,7 @@ function App() {
           aoNovoColadoradorAdicionado(colaborador)
         }
       />
+      <Titulo />
       {times.map((time) => (
         <Time
           key={time.nome}
@@ -68,6 +71,7 @@ function App() {
           )}
         />
       ))}
+      <Footer />
     </>
   );
 }
