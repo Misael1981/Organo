@@ -1,0 +1,21 @@
+.lista-suspensa {
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  select {
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border: none;
+    outline: 0;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+
+    option {
+      cursor: pointer;
+    }
+  }
+}
