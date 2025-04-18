@@ -1,4 +1,4 @@
-import "./Campotexto.css";
+import "./CampoTexto.css";
 
 const CampoTexto = ({ label, placeholder, obrigatorio, aoAlterado, valor }) => {
   const aoDigitar = (evento) => {
