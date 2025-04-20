@@ -1,5 +1,12 @@
 .colaborador {
   width: 17.5rem;
+  position: relative;
+
+  .deletar {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+  }
 
   .cabecalho {
     background-color: #f0f0f0;

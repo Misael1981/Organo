@@ -50,6 +50,10 @@ function App() {
     },
   ];
 
+  function deletarColaborador() {
+    console.log("Deletendo Colaborador");
+  }
+
   return (
     <>
       <Banner />
@@ -69,6 +73,7 @@ function App() {
           colaboradores={colaboradores.filter(
             (colaborador) => colaborador.time === time.nome
           )}
+          aoDeletar={deletarColaborador}
         />
       ))}
       <Footer />
