@@ -12,7 +12,7 @@ function App() {
     setColaboradores([...colaboradores, colaborador]);
   };
 
-  const times = [
+  const [times, setTimes] = useState([
     {
       nome: "Programação",
       corPrimaria: "#57C278",
@@ -48,10 +48,21 @@ function App() {
       corPrimaria: "#FF8A29",
       corSecundaria: "#FFEEDF",
     },
-  ];
+  ]);
 
   function deletarColaborador() {
     console.log("Deletendo Colaborador");
+  }
+
+  function mudarCorDoTime(cor, nome) {
+    setTimes(
+      times.map((time) => {
+        if (time.nome === nome) {
+          time.corSecundaria = cor;
+        }
+        return time;
+      })
+    );
   }
 
   return (
@@ -66,6 +77,7 @@ function App() {
       <Titulo />
       {times.map((time) => (
         <Time
+          mudarCor={mudarCorDoTime}
           key={time.nome}
           nome={time.nome}
           corPrimaria={time.corPrimaria}

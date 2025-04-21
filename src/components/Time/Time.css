@@ -1,6 +1,13 @@
 .time {
   padding: 2rem;
   text-align: center;
+  position: relative;
+
+  .input-cor {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
 
   h3 {
     display: inline-block;
