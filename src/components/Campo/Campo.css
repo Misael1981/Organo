@@ -1,4 +1,4 @@
-.campo-texto {
+.campo {
   margin: 1.5rem 0;
 
   label {
@@ -16,4 +16,9 @@
     font-size: 1.5rem;
     padding: 1.5rem;
   }
+}
+
+.campo-color input {
+  height: 40px;
+  padding: 5px 24px;
 }

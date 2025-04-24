@@ -2,16 +2,7 @@
 
 <img src="./img/organo.webp">
 
-Projeto desenvolvido do zero no curso **React, desenvolvendo com JavaScript** da **Alura**.
-
-## 🚀 Tecnologias
-
-<div>
-  <img alt="Misael-HTML" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img alt="Misael-CSS" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img alt="JavaScript" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  <img alt="Misael-CSS" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</div>
+Projeto desenvolvido do zero no curso **React, desenvolvendo com JavaScript** da **Alura** e aprimorado no curso **React: como os componentes funcionam**.
 
 ## Aprendizados:
 
@@ -23,6 +14,19 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos 
 - Manipulação de eventos.
 - Renderização de listas com a utilização de `map` e `key`.
 - Utilização de formulários controlados.
+- Como criar um ternário para renderizar de forma opcional;
+- Como renderizar condicionais de outras formas;
+- Como refatorar um componente sem atrapalhar a execução primária dele;
+- A importância de se refatorar um componente em projetos React.
+
+## 🚀 Tecnologias
+
+<div>
+  <img alt="Misael-HTML" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img alt="Misael-CSS" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img alt="JavaScript" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img alt="Misael-CSS" height="100" width="90" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+</div>
 
 ## Deploy do Projeto
 
